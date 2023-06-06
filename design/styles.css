@@ -137,7 +137,7 @@ body {
 }
 
 .container .study {
-      background: url(/images/icon-study.svg);
+      background: url(images/icon-study.svg);
       background-repeat: no-repeat;
       padding: 0;
       padding-top: 30px;
@@ -146,7 +146,7 @@ body {
 }
 
 .container .exercise {
-      background: url(/images/icon-exercise.svg);
+      background: url(images/icon-exercise.svg);
       background-repeat: no-repeat;
       padding: 0;
       padding-top: 30px;
@@ -155,7 +155,7 @@ body {
 }
 
 .container .social {
-      background: url(/images/icon-social.svg);
+      background: url(images/icon-social.svg);
       background-repeat: no-repeat;
       padding: 0;
       padding-top: 30px;
@@ -164,7 +164,7 @@ body {
 }
 
 .container .selfCare {
-      background: url(/images/icon-self-care.svg);
+      background: url(images/icon-self-care.svg);
       background-repeat: no-repeat;
       padding: 0;
       padding-top: 30px;
