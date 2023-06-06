@@ -1,0 +1,116 @@
+@media (max-width:1000px) {
+      .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 900px;
+            height: auto;
+      }
+
+      .container .profile {
+            grid-row-start: 1;
+            grid-row-end: 4;
+      }
+
+      .container .profile {
+            width: 220px;
+      }
+
+      .container .profile .name h1 {
+            margin-top: 45px;
+      }
+
+      .container .profile p {
+            margin-top: 44px;
+
+      }
+
+      .container .profile .name {
+            height: 480px;
+      }
+}
+
+@media (max-height:600px) {
+      body {
+            align-items: start;
+      }
+
+      .container {
+            margin-top: 50px;
+            margin-bottom: 50px;
+      }
+}
+
+@media (max-width:768px) {
+      .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 900px;
+            height: 1000px;
+      }
+
+      .container .profile {
+            grid-row-start: 1;
+            grid-row-end: 4;
+      }
+
+      .container .profile {
+            width: auto;
+      }
+
+      .container .profile .name h1 {
+            margin-top: 45px;
+      }
+
+      .container .profile p {
+            margin-top: 44px;
+
+      }
+
+      .container .profile .name {
+            height: 280px;
+            display: flex;
+            flex-wrap: nowrap;
+
+      }
+
+      body {
+            align-items: start;
+      }
+
+      .container .profile .name img {
+            width: 250px;
+      }
+
+      .container .profile .name {
+            justify-content: space-around;
+      }
+
+      .container .profile span {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+      }
+}
+
+@media (max-width:600px) {
+      .container {
+            width: 400px;
+      }
+
+      .container .profile {
+            width: 380px;
+      }
+
+      .container .profile .name img {
+            width: 140px;
+            height: 160px;
+      }
+
+      .container .profile .name {
+            height: 200px;
+      }
+
+      .container .profile .name h1 {
+            font-size: 40px;
+      }
+}

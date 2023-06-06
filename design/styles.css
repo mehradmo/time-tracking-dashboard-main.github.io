@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: hsl(226, 43%, 10%);
+      height: 100vh;
+      color: white;
+      font-family: 'Rubik', sans-serif;
+}
+
+.container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      width: 1000px;
+      height: 500px;
+}
+
+.container * {
+      margin: 10px;
+      padding: 1px;
+      background-color: hsl(235, 46%, 20%);
+      border-radius: 15px /15px;
+}
+
+.container .profile {
+      grid-row-start: 1;
+      grid-row-end: 3;
+}
+
+.container * .title {
+      display: flex;
+}
+
+.container .profile .name *,
+.container .profile .name {
+      background-color: hsl(246, 80%, 60%);
+}
+
+.container .profile .name {
+      width: 100%;
+      margin: 0;
+      height: 330px;
+}
+
+.container .profile span p {
+      color: gray;
+      margin-top: 24px;
+      cursor: pointer;
+      transition: .2s all ease-in-out;
+      font-size: 20px;
+}
+
+.container .profile span p:hover {
+    color: white;
+}
+
+.container .profile .active {
+      color: white;
+}
+
+.container .profile .name img {
+      width: 120px;
+      border: 3px solid white;
+      border-radius: 50%;
+}
+
+.container .profile .name h1 {
+      font-size: 50px;
+      font-weight: 100;
+      width: 190px;
+}
+
+.container .profile .name span p {
+      color: white;
+      font-weight: 100;
+}
+
+.container * * * {
+      font-size: 10px;
+}
+
+.container * .title {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* background-color: hsl(235, 46%, 20%); */
+
+}
+
+.container * .div {
+      width: 100%;
+      height: 100.9%;
+      margin: 0;
+}
+
+.container * .title p {
+      font-size: 20px;
+}
+
+.container * .title img {
+      cursor: pointer;
+      opacity: .8;
+}
+
+.container * .title img:hover {
+      opacity: 1;
+}
+
+.container .work {
+      background: url(/images/icon-work.svg);
+      background-repeat: no-repeat;
+      padding: 0;
+      padding-top: 30px;
+      background-size: 50px;
+      background-color: hsl(15, 100%, 70%);
+
+}
+
+.container .play {
+      background: url(/images/icon-play.svg);
+      background-repeat: no-repeat;
+      padding: 0;
+      padding-top: 30px;
+      background-size: 50px;
+      background-color: hsl(195, 74%, 62%);
+}
+
+.container .study {
+      background: url(/images/icon-study.svg);
+      background-repeat: no-repeat;
+      padding: 0;
+      padding-top: 30px;
+      background-size: 50px;
+      background-color: hsl(348, 100%, 68%);
+}
+
+.container .exercise {
+      background: url(/images/icon-exercise.svg);
+      background-repeat: no-repeat;
+      padding: 0;
+      padding-top: 30px;
+      background-size: 50px;
+      background-color: hsl(145, 58%, 55%);
+}
+
+.container .social {
+      background: url(/images/icon-social.svg);
+      background-repeat: no-repeat;
+      padding: 0;
+      padding-top: 30px;
+      background-size: 50px;
+      background-color: hsl(264, 64%, 52%);
+}
+
+.container .selfCare {
+      background: url(/images/icon-self-care.svg);
+      background-repeat: no-repeat;
+      padding: 0;
+      padding-top: 30px;
+      background-size: 50px;
+      background-color: hsl(43, 84%, 65%);
+}
+
+.container * .div h1{
+      font-size: 45px;
+      font-weight: 100;
+}
+
+.container * .div p{
+      font-size: 15px;
+      letter-spacing: 2px;
+      font-weight: 100;
+}
